@@ -1,16 +1,17 @@
-@import url('https://googleapis.com');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
 
-/* 
-
 /* HEADER SECTION */
 .header {
     background-color: #1F2937;
-    padding: 16px 32px;
+    padding-top: 16px;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 4rem;
 
     display: flex;
     flex-direction: column;
@@ -44,6 +45,18 @@ a {
     color: #E5E7EB;
 }
 
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .hero-title {
     font-size: 48px;
     font-weight: 900;
@@ -51,6 +64,33 @@ a {
 }
 
 .hero-text {
-    fost-size: 18px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Sign-up Button */
+.sign-up button {
+    background-color: #0052CC;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0px;
+}
+
+.placeholder-container {
+    width: 500px;
+    height: 200px;
+    flex: 0 0 auto;
+
+    background-color: grey;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center the text of placeholder */
+.placeholder {
     color: #E5E7EB;
 }
