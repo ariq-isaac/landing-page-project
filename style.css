@@ -5,7 +5,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* HEADER SECTION */
+/* ----------------------------------
+HEADER AND HERO SECTION
+---------------------------------- */
 .header {
     background-color: #1F2937;
     padding-top: 16px;
@@ -93,4 +95,108 @@ a {
 /* Center the text of placeholder */
 .placeholder {
     color: #E5E7EB;
+}
+
+/* ----------------------------------
+INFORMATION SECTION
+---------------------------------- */
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 5rem;
+}
+
+.information {
+    display: flex;
+    gap: 2rem;
+}
+
+.sub-text {
+    width: 9rem;
+}
+
+.illustration {
+    width: 9rem;
+    height: 9rem;
+
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+
+/* ----------------------------------
+QUOTE SECTION
+---------------------------------- */
+.quote-container {
+
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-content {
+    width: 690px;
+    margin: 3rem;
+}
+
+.quote, .cited-from {
+    margin: 0px;
+}
+
+.cited-from {
+    font-size: 30px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* ----------------------------------
+CALL-TO-ACTION
+---------------------------------- */
+.cta-container {
+
+    background-color: #3882F6;
+    color: white;
+
+    padding: 2rem 4rem;
+    margin: 3rem 8rem;
+
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.cta-text .cta-title {
+  margin: 0px
+}
+
+.cta-text p {
+  margin: 0px;
+}
+
+.cta-sign-up {
+    background-color: #3882F6;
+    color: white;
+    border: 3px solid white;
+    padding: 10px 30px;
+    border-radius: 8px;
 }
