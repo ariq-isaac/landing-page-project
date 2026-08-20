@@ -3,6 +3,9 @@
 body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* ----------------------------------
@@ -199,4 +202,21 @@ CALL-TO-ACTION
     border: 3px solid white;
     padding: 10px 30px;
     border-radius: 8px;
+}
+
+/* ----------------------------------
+FOOTER
+---------------------------------- */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+    padding: 16px;
+}
+
+.footer .copyright {
+    color: white;
 }
